@@ -41,12 +41,12 @@ const crazySum = function (num1, num2) {
 }
 console.log(crazySum(4, 9))
 
- // THSI IS ANOTHER VARIANT FOR EX2 CALLED ternary operation
+//  THSI IS ANOTHER VARIANT FOR EX2 CALLED ternary operation
 
-// const crazySum2 = function (n1, n2) {
+const crazySum2 = function (n1, n2) {
 
-//  return n1 === n2 ? (n1 + n2) * 3 : n1 + n2
-// }
+ return n1 === n2 ? (n1 + n2) * 3 : n1 + n2
+}
 // console.log(crazySum2(6, 6))
 
 
@@ -155,12 +155,12 @@ console.log(reverseString("Strive"))
 
 /* WRITE YOUR ANSWER HERE */
 
-// const upperFirst = function (str) {
-//     return str.charAt(0).toUppercase() 
+const upperFirst = function (str) {
+    return str.charAt(0).toUppercase() 
 
-//           let firstChar = str.charAt(0)
-//           let upperCase = firstChar.toUppercase()
-//           let cutString = str.sclice(1) 
+          let firstChar = str.charAt(0)
+          let upperCase = firstChar.toUppercase()
+          let cutString = str.sclice(1) 
 // }
 
 // console.log(upperFirst("strivers"))
@@ -228,4 +228,4 @@ console.log(cutFirstnLastString("Aziza"))
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
-*/
+*//
